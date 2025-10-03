@@ -59,7 +59,12 @@ strong {
 #footer:hover {
   background: linear-gradient(90deg, red, orange, yellow, green, blue,
     indigo, violet);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   animation: rainbow 3s linear infinite;
+}
+
+@media (max-width: 1200px) {
+  body {
+    margin: 8px;
+    font-size: 100%;
+  }
 }
