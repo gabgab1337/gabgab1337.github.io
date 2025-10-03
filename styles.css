@@ -51,3 +51,11 @@ strong {
   -webkit-text-stroke: 1px #a000c0; /* Black outline */
   text-shadow: #ffffff 2px 4px 70px; /* Shadow for better visibility */
 }
+
+/* little visible footer */
+#footer {
+  font-size: 80%; /* Smaller font size for the footer */
+  color: #888888; /* Grey color for the footer */
+  text-align: center;
+  margin-top: 40px; /* Space above the footer */
+}
