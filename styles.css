@@ -55,7 +55,16 @@ strong {
 /* little visible footer */
 #footer {
   font-size: 80%; /* Smaller font size for the footer */
-  color: #888888; /* Grey color for the footer */
+  color: #5a5a5a; /* Grey color for the footer */
   text-align: center;
-  margin-top: 40px; /* Space above the footer */
+  margin-top: 80px; /* Space above the footer */
+}
+
+/* rainbow text while hover on footer */
+#footer:hover {
+  background: linear-gradient(90deg, red, orange, yellow, green, blue,
+    indigo, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 3s linear infinite;
 }
