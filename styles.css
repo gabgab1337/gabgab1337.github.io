@@ -56,13 +56,12 @@ strong {
   margin-top: 80px;
 }
 
-/* cool animation while hovering over the footer, no background linear gradient */
 #footer:hover {
   color: rgb(160, 117, 192);
   font-weight: 900;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   body {
     margin: 8px;
     font-size: 100%;
