@@ -56,10 +56,10 @@ strong {
   margin-top: 80px;
 }
 
+/* cool animation while hovering over the footer, no background linear gradient */
 #footer:hover {
-  background: linear-gradient(90deg, red, orange, yellow, green, blue,
-    indigo, violet);
-  animation: rainbow 3s linear infinite;
+  color: rgb(160, 117, 192);
+  font-weight: 900;
 }
 
 @media (max-width: 1200px) {
